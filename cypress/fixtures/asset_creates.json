@@ -1,0 +1,78 @@
+{
+
+    "<<<<<<<<  1111 <<<<<<<____Changes_for_Hero_fields_____>>>>>>>>>>>>>":"input here for reusable data",
+    
+    "AssetClassDropdown":"Melee",
+    "Tagline":"here this make by the PageObjects Pattern",
+    "ElementDropdown":"Fire",
+    "FactionDropdown":"Horde",
+    "Name_Hero":"Hero Automation creation ",
+    "rarity_Hero":"Rare",
+    "IPFSfolder_Hero":"QmUz6FqjjbsJD2m4SXBKCYkPLkMAYEuE5nLpfEVzSUbbLh",
+    "TotalSuppy_Hero":10,
+
+
+    "<<<<<<<< 2222 <<<<<<<<____Changes_for_Pet_fields_____>>>>>>>>>>>":"input here for reusable data",
+
+
+    "AssetClassDrop":"Workers",
+    "HeroPet":3,
+    "Effect":"ensuring the safety of everyone",
+    "Name_Pet":"pet Automation creation ",
+    "rarity_Pet":"Epic",
+    "IPFSfolder_Pet":"QmUz6FqjjbsJD2m4SXBKCYkPLkMAYEuE5nLpfEVzSUbbLh",
+    "TotalSuppy_Pet":10,
+
+    "<<<<<<<< 333  <<<<<<<<____Changes_for_Guild_TOKEN(other)_fields_____>>>>>>":"input here for reusable data",
+
+    "assetBase":"Demo UTILITY",
+    "Total_Token":10,
+    "Crafting_Slots":10,
+    "Name_Guild":"Guild Token Automation creation ",
+    "rarity_Guild":"Legendary",
+    "IPFSfolder_Guild":"QmUz6FqjjbsJD2m4SXBKCYkPLkMAYEuE5nLpfEVzSUbbLh",
+    "TotalSuppy_Guild":10,
+
+    "<<<<<<<< 4444  <<<<<<____Changes_for_ENERGY_TOKEN(other)_fields_____>>>>":"input here for reusable data",
+
+
+    "enrgyBase":"Automated dealing",
+    "charge":7,
+    "cool_down":5,
+    "Name_Energy":"Energy asset Automation creation ",
+    "rarity_Energy":"Epic",
+    "IPFSfolder_Energy":"QmUz6FqjjbsJD2m4SXBKCYkPLkMAYEuE5nLpfEVzSUbbLh",
+    "TotalSuppy_Energy":10,
+
+
+    "<<<< 5555  <<<<<____Changes_for_Equipment_(item)_fields_____>>>>>":"input here for reusable data",
+
+
+    "equipBase":"Beta Version 2.0",
+    "equipSlot":100,
+    "Role":"AUTOMATION UNIT",
+    "Name_Equip":"Equipment asset Automation creation ",
+    "rarity_Equip":"Common",
+    "IPFSfolder_Equip":"QmUz6FqjjbsJD2m4SXBKCYkPLkMAYEuE5nLpfEVzSUbbLh",
+    "TotalSuppy_Equip":10,
+
+    "<<<<< 6666  <<<<<<____Changes_for_Artifact-(item)_fields_____>>>>>":"input here for reusable data",
+
+
+    "artifactBase":"Artifact Demo By Automation",
+    "typeartifact":"Meta Version availability",
+    "artifactRole":"Xavior Dynamic",
+    "Name_artifact":"Artifact(item) asset Automation creation ",
+    "rarity_artifact":"Legendary",
+    "IPFSfolder_artifact":"QmUz6FqjjbsJD2m4SXBKCYkPLkMAYEuE5nLpfEVzSUbbLh",
+    "TotalSuppy_artifact":10,
+
+    "<<<<<<<< 7777  <<<<<____Changes_for_Art-Collectable_fields_____>>>>":"input here for reusable data",
+
+
+    "artBase":"Automating the art colllectable field",
+    "Name_art":"Art-Collectable Automation creation ",
+    "rarity_art":"Legendary",
+    "IPFSfolder_art":"QmUz6FqjjbsJD2m4SXBKCYkPLkMAYEuE5nLpfEVzSUbbLh",
+    "TotalSuppy_art":10
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "6336ed5801cee00028fd6783",
+  "transitions": [
+    {
+      "status": "Pending",
+      "triggeredAt": "2022-09-30T13:21:28.502Z"
+    },
+    {
+      "status": "Confirmed",
+      "triggeredAt": "2022-09-30T13:21:28.807Z"
+    },
+    {
+      "status": "Started",
+      "triggeredAt": "2022-09-30T13:21:35.027Z"
+    },
+    {
+      "status": "Completed",
+      "triggeredAt": "2022-09-30T13:21:35.050Z"
+    }
+  ],
+  "actionType": "ProductGift",
+  "payload": {
+    "addresses": [
+      "0x98a8b8164Ec81A14A9763d088beDa6ca5003f5bD"
+    ],
+    "productKey": "EpicHeroPack"
+  },
+  "payloadBrief": "Gift: Epic hero to 1 addresses",
+  "user": {
+    "_id": "611e6e5c85fd4004143808d5",
+    "username": "admin",
+    "email": "admin@example.com"
+  },
+  "status": "Completed",
+  "createdAt": "2022-09-30T13:21:28.502Z",
+  "updatedAt": "2022-09-30T13:21:35.050Z",
+  "result": "Gift: Epic hero to 1 addresses Completed"
+}

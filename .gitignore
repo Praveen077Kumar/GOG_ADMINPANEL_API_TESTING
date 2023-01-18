@@ -1,0 +1,6 @@
+node_modules
+SECURITY.md
+TestReport
+cypress.env.json
+logs
+screenshots

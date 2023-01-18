@@ -1,0 +1,6 @@
+{
+    "actionType": "DropUnpublish",
+    "payload": {
+        "pageUrl": "drop-sale"
+    }
+}

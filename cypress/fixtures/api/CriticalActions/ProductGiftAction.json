@@ -1,0 +1,7 @@
+{
+    "actionType": "ProductGift",
+    "payload": {
+        "addresses": ["0x98a8b8164Ec81A14A9763d088beDa6ca5003f5bD"],
+        "productKey": "EpicHeroPack"
+    }
+}

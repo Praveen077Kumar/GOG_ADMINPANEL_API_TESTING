@@ -1,0 +1,9 @@
+{
+    "actionType": "AssetTransfer",
+    "payload": {
+        "assetType": "612e4cd9bf09dabcff28d365",
+        "description": "Epic hero transfer ",
+        "owner":   "0xeaf89218e04c4a0a6644de3f372d18167068d912",
+        "receivers":   ["0x98a8b8164Ec81A14A9763d088beDa6ca5003f5bD"]
+    }
+}

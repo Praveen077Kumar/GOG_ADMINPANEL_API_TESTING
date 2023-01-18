@@ -1,0 +1,19 @@
+{ 
+  "video": false,
+  "screenshotOnRunFailure": true,
+  "chromeWebSecurity": false,
+  "retries": 2,
+  "defaultCommandTimeout": 20000,
+  "pluginsFile": "cypress/plugins",
+  "reporter": "list",
+  "projectId": "joixm8",
+  "parallel":true,
+  "CYPRESS_host":"",
+  "CYPRESS_api":"",
+  "env":{
+      "api":{
+        "baseurl":""
+      }
+  }
+
+}

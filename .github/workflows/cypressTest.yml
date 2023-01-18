@@ -1,0 +1,44 @@
+name: cypress Tests
+on: 
+  schedule:
+    - cron: '0 8 * * FRI'
+  pull_request:
+      branches: [master]
+      
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    container: 
+      image: cypress/browsers:node16.13.2-chrome100-ff98
+      options: --user 1001
+    steps: 
+      - name: Checkout
+        uses: actions/checkout@v2.4.2
+      
+      - name: Install dependencies
+        run: npm install
+      
+      - name: use cache 
+        uses: actions/cache@v2
+        with:
+          path: |
+            node_modules
+            */*/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+
+      - name: Cypress.io
+        uses: cypress-io/github-action@v2.9.7
+        with:
+          command: CYPRESS_baseUrl=https://admin-gog-staging.vercel.app npm run ci:run
+          record: true
+          parallel: true
+        env:
+          CYPRESS_username: ${{ secrets.CYPRESS_USERNAME }}
+          CYPRESS_password: ${{ secrets.CYPRESS_PASSWORD }}
+          CYPRESS_RECORD_KEY: ${{ secrets.RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITTOKEN }}
+          CYPRESS_projectId: ${{ secrets.PROJECT_ID }}
+          CYPRESS_clientId: ${{ secrets.CYPRESS_CLIENTID }}
+          CYPRESS_clientSecret: ${{ secrets.CYPRESS_CLIENT_SECRET }}
+          CYPRESS_refreshToken: ${{ secrets.CYPRESS_REFRESH_TOKEN }}
+          

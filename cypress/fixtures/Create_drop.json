@@ -1,0 +1,40 @@
+{  
+
+"<<<<<<<<<<<<<create Drop Fields":"Changes here for Drop Fields>>>>>>>>>>>>>>>>>>>>>>>>",
+
+    "name":"Multiple Product section  Drop ",
+    "title":"Multi Product Drop Demo ",
+    "pagetitle":"Multipel product Show",
+    "descriptionTitle":"Automation with Multiple Product addded Drop",
+    "descriptionText":"Hello user this is created by Automation",
+    "limitperpurchase": 8,
+    "perwalletlimit":100,
+
+
+
+
+"_____PRODUCT_SECTION___CREATE___________":"Make Changes For Product Creation "
+,    
+    "No_of_products":5,
+    "productname":"Artifact Product",
+    "productDescription":"This is the Artifact Product ",
+    "assettypeselect":"Artifact(item) asset Automation creation bbab1cb8",
+    "firstsaleprice": 0.100,
+    "lastsaleprice":0.200,
+    "totalsupply":50,
+    "availablesupply":40,
+    "walletaddress":"0x441635096A8d0ac6C0d75cc7a2F03446fe363b21",
+    "royality_wallet":"0x441635096A8d0ac6C0d75cc7a2F03446fe363b21",
+
+    "<<<<<<<<< change here for the date field of create drop":"input your drop's calender and time",
+
+
+    "startdate":"21",
+    "startmonth":"November",
+    "starttime":"1:30 AM",
+
+    "finishdate":"30",
+    "finishmonth":"December",
+    "finishtime":"11:30 AM"
+
+}

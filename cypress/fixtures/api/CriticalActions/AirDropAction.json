@@ -1,0 +1,8 @@
+{
+    "actionType": "TokensAirdrop",
+    "payload": {
+        "toAddresses": ["0x98a8b8164Ec81A14A9763d088beDa6ca5003f5bD"],
+        "amount": "2"
+    }
+}
+
